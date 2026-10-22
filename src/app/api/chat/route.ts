@@ -8,7 +8,7 @@ import type { ChatMessage, ChatRequest, ChatResponse } from "@/types";
 //   Vercel: Project Settings -> Environment Variables
 // Model bisa diganti tanpa ubah kode lewat GEMINI_MODEL (default di bawah).
 
-const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-3.8-flash";
 const MAX_HISTORY = 10; // hanya kirim 10 pesan terakhir supaya hemat kuota
 
 // --- Pembatas sederhana per IP (disimpan di memori) ---
